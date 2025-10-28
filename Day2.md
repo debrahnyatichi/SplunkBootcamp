@@ -96,15 +96,15 @@ sudo dpkg -i splunk-10.0.1-c486717c322b-linux-amd64.deb
 3. **Start Splunk Service**
 sudo /opt/splunk/bin/splunk start
 
-During the first startup, Splunk will prompt you to accept the license and set admin credentials.
-Once setup is complete, open your browser and access Splunk via: URL: http://localhost:8000
+4. During the first startup, Splunk will prompt you to accept the license and set admin credentials.
+5. Once setup is complete, open your browser and access Splunk via: URL: http://localhost:8000
 
 **B. On Windows**
 
 **Install and Configure Splunk**
-Download the Installer from the Splunk official website
-Run the Installer and follow the setup wizard.
-Accept the License Agreement.
-Create an Admin Account.
-Access Splunk Web Interface:
-	Open your browser and go to: URL: http://localhost:8000
+1. Download the Installer from the Splunk official website
+2. Run the Installer and follow the setup wizard.
+3. Accept the License Agreement.
+4. Create an Admin Account.
+5. Access Splunk Web Interface:
+6. Open your browser and go to: URL: http://localhost:8000
