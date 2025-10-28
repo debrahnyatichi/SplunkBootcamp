@@ -88,31 +88,23 @@ Splunk can be easily installed using package management tools.
 
 **Steps:**
 1. **Download Splunk:**
-   ```bash
    wget -O splunk-10.0.1-c486717c322b-linux-amd64.deb "https://download.splunk.com/products/splunk/releases/10.0.1/linux/splunk-10.0.1-c486717c322b-linux-amd64.deb"
 
-2. Install Splunk:
+2. **Install Splunk:**
 sudo dpkg -i splunk-10.0.1-c486717c322b-linux-amd64.deb
 
-3. Start Splunk Service
+3. **Start Splunk Service**
 sudo /opt/splunk/bin/splunk start
 
-# During the first startup, Splunk will prompt you to accept the license and set admin credentials.
+During the first startup, Splunk will prompt you to accept the license and set admin credentials.
+Once setup is complete, open your browser and access Splunk via: URL: http://localhost:8000
 
-# Once setup is complete, open your browser and access Splunk via:
-# URL: http://localhost:8000
+**B. On Windows**
 
-B. On Windows
-
-Install and Configure Splunk
-# Download the Installer from the Splunk official website
-
-# Run the Installer and follow the setup wizard.
-
-# Accept the License Agreement.
-
-# Create an Admin Account.
-
-# Access Splunk Web Interface:
-# Open your browser and go to:
-# URL: http://localhost:8000
+**Install and Configure Splunk**
+Download the Installer from the Splunk official website
+Run the Installer and follow the setup wizard.
+Accept the License Agreement.
+Create an Admin Account.
+Access Splunk Web Interface:
+	Open your browser and go to: URL: http://localhost:8000
